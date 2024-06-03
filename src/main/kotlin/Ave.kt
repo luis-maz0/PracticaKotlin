@@ -31,6 +31,9 @@ class Torcaza(nombre: String): Ave(nombre){
         super.volar()
         vecesVolo++
     }
+    fun volarAlto(){
+        energia -= 20
+    }
 }
 //Estoy probando la creación de una nueva rama!
 
